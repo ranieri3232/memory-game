@@ -1,0 +1,13 @@
+#page-main {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	background: #18181B;
+	flex-direction: column;
+}
+
+#page-main aside{
+	display: flex;
+	flex-direction: column;
+}
+
