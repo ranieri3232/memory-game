@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import './app.css'
+import "./app.css";
+import logoImg from "./assets/logo.png";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div id="page-main">
-			<h1>test</h1>
-			<aside><span>test</span></aside>
-			<main><span>test</span></main>
-		</div>
-  )
+      <aside>
+        <img className="logo-img" src={logoImg} alt="react logo abaceate pera maça uva e graviola memory game"/>
+
+      </aside>
+      <main>
+        <span>test</span>
+      </main>
+    </div>
+  );
 }
 
 export default App;

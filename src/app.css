@@ -3,11 +3,18 @@
 	width: 100vw;
 	height: 100vh;
 	background: #18181B;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 #page-main aside{
 	display: flex;
-	flex-direction: column;
+	min-width: 30vw;
+	height: 100vh;
+}
+
+#page-main main{
+	display: flex;
+	min-width: 70vw;
+	height: 100vh;
 }
 
