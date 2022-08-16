@@ -1,20 +1,30 @@
 #page-main {
-	display: flex;
-	width: 100vw;
-	height: 100vh;
-	background: #18181B;
-	flex-direction: row;
+  display: flex;
+  min-width: 1268px;
+  min-height: 656px;
+  background: #000;
+  flex-direction: row;
 }
 
-#page-main aside{
-	display: flex;
-	min-width: 30vw;
-	height: 100vh;
+#page-main aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0px;
+  min-width: 30%;
+  min-height: 100%;
 }
 
-#page-main main{
-	display: flex;
-	min-width: 70vw;
-	height: 100vh;
+#page-main aside .logo-img {
+  max-width: 320px;
 }
 
+#page-main main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  min-height: 100%;
+  background-color: #18181b;
+}
